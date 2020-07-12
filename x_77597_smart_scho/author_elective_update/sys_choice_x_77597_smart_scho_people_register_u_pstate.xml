@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_pstate" table="x_77597_smart_scho_people_register" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_pstate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Northern Territory</label>
+            <language>en</language>
+            <name>x_77597_smart_scho_people_register</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-22 11:31:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>29fab4352fa110106a2711c82799b69d</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-22 11:32:24</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_pstate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Queensland</label>
+            <language>en</language>
+            <name>x_77597_smart_scho_people_register</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-22 11:32:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e82bb4352fa110106a2711c82799b6d9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-22 11:32:59</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_pstate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New South Wales</label>
+            <language>en</language>
+            <name>x_77597_smart_scho_people_register</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-22 11:33:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9f7bf4752fa110106a2711c82799b6af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-22 11:33:21</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_pstate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Canberra</label>
+            <language>en</language>
+            <name>x_77597_smart_scho_people_register</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-22 11:34:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>19ab3c352fa110106a2711c82799b6eb</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-22 11:34:52</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_pstate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Victoria</label>
+            <language>en</language>
+            <name>x_77597_smart_scho_people_register</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-22 11:33:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>db9b3c752fa110106a2711c82799b66f</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-22 11:34:29</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_pstate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tasmania</label>
+            <language>en</language>
+            <name>x_77597_smart_scho_people_register</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-22 11:35:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cadb74752fa110106a2711c82799b63d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-22 11:35:27</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_pstate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>South Australia</label>
+            <language>en</language>
+            <name>x_77597_smart_scho_people_register</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-22 11:35:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d1fb38752fa110106a2711c82799b656</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-22 11:35:54</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_pstate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Western Australia</label>
+            <language>en</language>
+            <name>x_77597_smart_scho_people_register</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-22 11:36:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dd1c3c752fa110106a2711c82799b67c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-22 11:36:14</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_pstate</element>
+            <name>x_77597_smart_scho_people_register</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-22 11:31:03</sys_created_on>
+            <sys_id>b50b38f12fa110106a2711c82799b6dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_pstate</sys_name>
+            <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+            <sys_update_name>sys_choice_x_77597_smart_scho_people_register_u_pstate</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-22 11:31:03</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

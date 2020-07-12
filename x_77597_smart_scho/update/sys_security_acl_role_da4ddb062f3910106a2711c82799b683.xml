@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-06 04:14:09</sys_created_on>
+        <sys_id>da4ddb062f3910106a2711c82799b683</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_77597_smart_scho_teacher_and_staff_table.snc_internal</sys_name>
+        <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+        <sys_security_acl display_value="x_77597_smart_scho_teacher_and_staff_table">3f8aa8392f6110106a2711c82799b6e6</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_da4ddb062f3910106a2711c82799b683</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-06 04:14:09</sys_updated_on>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+        <transaction_id>124d13822f3110106a2711c82799b616</transaction_id>
+    </sys_security_acl_role>
+</record_update>

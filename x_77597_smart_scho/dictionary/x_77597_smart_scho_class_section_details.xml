@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Class Section Details" max_length="40" name="x_77597_smart_scho_class_section_details" sizeclass="6" type="collection">
+        <element attributes="edge_encryption_enabled=true" display="true" label="Class-Section" max_length="40" name="class_section" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="Class Teacher" max_length="32" name="u_class_teacher" reference="x_77597_smart_scho_teacher_and_staff_table" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Section" max_length="40" name="u_section" type="string">
+            <choice>
+                <element inactive_on_update="false" label="A" sequence="0" value="a"/>
+                <element inactive_on_update="false" label="B" sequence="1" value="b"/>
+                <element inactive_on_update="false" label="C" sequence="2" value="c"/>
+                <element inactive_on_update="false" label="D" sequence="3" value="d"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Stream" max_length="40" name="u_stream" type="string">
+            <choice>
+                <element inactive_on_update="false" label="General" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Science" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Commerce" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Arts" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Sports" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Subjects" max_length="1024" name="u_subjects" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Wing" max_length="40" name="u_wing" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Pre-Primary" sequence="0" value="Pre-Primary"/>
+                <element inactive_on_update="false" label="Primary" sequence="1" value="Primary"/>
+                <element inactive_on_update="false" label="Secondary" sequence="2" value="Secondary"/>
+                <element inactive_on_update="false" label="Senior-Secondary" sequence="3" value="Senior-Secondary"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Year / Class" max_length="40" name="u_year" type="string">
+            <choice>
+                <element inactive_on_update="false" label="KinderGarten" sequence="0" value="kg"/>
+                <element inactive_on_update="false" label="Nursery" sequence="1" value="nur"/>
+                <element inactive_on_update="false" label="I" sequence="2" value="1"/>
+                <element inactive_on_update="false" label="II" sequence="3" value="2"/>
+                <element inactive_on_update="false" label="III" sequence="4" value="3"/>
+                <element inactive_on_update="false" label="IV" sequence="5" value="4"/>
+                <element inactive_on_update="false" label="V" sequence="6" value="5"/>
+                <element inactive_on_update="false" label="VI" sequence="7" value="6"/>
+                <element inactive_on_update="false" label="VII" sequence="8" value="7"/>
+                <element inactive_on_update="false" label="VIII" sequence="9" value="8"/>
+                <element inactive_on_update="false" label="IX" sequence="10" value="9"/>
+                <element inactive_on_update="false" label="X" sequence="11" value="10"/>
+                <element inactive_on_update="false" label="XI" sequence="12" value="11"/>
+                <element inactive_on_update="false" label="XII" sequence="13" value="12"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_class_teacher"/>
+        </index>
+    </element>
+</database>

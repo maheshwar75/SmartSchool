@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="79487ac42fa510106a2711c82799b60f" sys_domain="global" table="x_77597_smart_scho_school" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-18 03:28:45</sys_created_on>
+            <sys_id>bd46aed02f2150106a2711c82799b656</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77597_smart_scho_school" sys_domain="global" view="Default view">79487ac42fa510106a2711c82799b60f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-18 03:28:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_school_name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-18 03:28:45</sys_created_on>
+            <sys_id>3146aed02f2150106a2711c82799b657</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77597_smart_scho_school" sys_domain="global" view="Default view">79487ac42fa510106a2711c82799b60f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-18 03:28:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-18 03:28:45</sys_created_on>
+            <sys_id>b146aed02f2150106a2711c82799b657</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77597_smart_scho_school" sys_domain="global" view="Default view">79487ac42fa510106a2711c82799b60f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-18 03:28:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_primary_branch</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-18 03:28:45</sys_created_on>
+            <sys_id>3546aed02f2150106a2711c82799b657</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77597_smart_scho_school" sys_domain="global" view="Default view">79487ac42fa510106a2711c82799b60f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-18 03:28:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_branch_of</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-18 03:28:45</sys_created_on>
+            <sys_id>b546aed02f2150106a2711c82799b657</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77597_smart_scho_school" sys_domain="global" view="Default view">79487ac42fa510106a2711c82799b60f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-18 03:28:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_77597_smart_scho_school</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-17 10:08:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>79487ac42fa510106a2711c82799b60f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_77597_smart_scho_school</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+            <sys_update_name>sys_ui_section_79487ac42fa510106a2711c82799b60f</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-17 10:08:54</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

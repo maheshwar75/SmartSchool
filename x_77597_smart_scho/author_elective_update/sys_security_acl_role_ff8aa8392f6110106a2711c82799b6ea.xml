@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-22 10:19:06</sys_created_on>
+        <sys_id>ff8aa8392f6110106a2711c82799b6ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_77597_smart_scho_teacher_and_staff_table.x_77597_smart_scho.teacher_and_staff_table_user</sys_name>
+        <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+        <sys_security_acl display_value="x_77597_smart_scho_teacher_and_staff_table">3f8aa8392f6110106a2711c82799b6e6</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ff8aa8392f6110106a2711c82799b6ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-22 10:19:06</sys_updated_on>
+        <sys_user_role display_value="x_77597_smart_scho.teacher_and_staff_table_user" name="x_77597_smart_scho.teacher_and_staff_table_user">af8aa8392f6110106a2711c82799b667</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</application>
+        <file_path/>
+        <instance_id>e428de19db1773c88aea21c40596195a</instance_id>
+        <instance_name>dev91615</instance_name>
+        <name>sys_security_acl_role_ff8aa8392f6110106a2711c82799b6ea</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-22 10:19:06</sys_created_on><sys_id>ff8aa8392f6110106a2711c82799b6ea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_77597_smart_scho_teacher_and_staff_table.x_77597_smart_scho.teacher_and_staff_table_user</sys_name><sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package><sys_policy/><sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope><sys_security_acl display_value="x_77597_smart_scho_teacher_and_staff_table">3f8aa8392f6110106a2711c82799b6e6</sys_security_acl><sys_update_name>sys_security_acl_role_ff8aa8392f6110106a2711c82799b6ea</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-22 10:19:06</sys_updated_on><sys_user_role display_value="x_77597_smart_scho.teacher_and_staff_table_user" name="x_77597_smart_scho.teacher_and_staff_table_user">af8aa8392f6110106a2711c82799b667</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-792493116</payload_hash>
+        <record_name>x_77597_smart_scho_teacher_and_staff_table.x_77597_smart_scho.teacher_and_staff_table_user</record_name>
+        <reverted_from/>
+        <source>8792fa442f6510106a2711c82799b66d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-22 10:19:06</sys_created_on>
+        <sys_id>7b8aa8392f6110106a2711c82799b6ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172db89e4e20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-22 10:19:06</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>b38aa839ab61101073bac82d68da8aee</update_guid>
+        <update_guid_history>b38aa839ab61101073bac82d68da8aee:-792493116</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_77597_smart_scho_teacher_and_staff_table.x_77597_smart_scho.teacher_and_staff_">1a4ddb062f3910106a2711c82799b685</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-06 04:14:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>1f8acaee65fc4240bfd9d0ddcf5d4400</sys_id>
+        <sys_metadata>ff8aa8392f6110106a2711c82799b6ea</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_77597_smart_scho_teacher_and_staff_table.x_77597_smart_scho.teacher_and_staff_table_user</sys_name>
+        <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+        <sys_parent display_value="x_77597_smart_scho_teacher_and_staff_table">3f8aa8392f6110106a2711c82799b6e6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+        <sys_scope_delete display_value="">9e9ceb8bf7b2405baf403ca063079259</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_ff8aa8392f6110106a2711c82799b6ea</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_ff8aa8392f6110106a2711c82799b6ea">7b8aa8392f6110106a2711c82799b6ee</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-06 04:14:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

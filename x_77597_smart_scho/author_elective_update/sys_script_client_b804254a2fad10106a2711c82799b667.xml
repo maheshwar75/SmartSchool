@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_address_1</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Hide postal address tab</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	//Type appropriate comment here, and begin script below
+	var sections = g_form.getSections();
+	sections[2].style.display = 'none';
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-23 09:09:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b804254a2fad10106a2711c82799b667</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Hide postal address tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+        <sys_update_name>sys_script_client_b804254a2fad10106a2711c82799b667</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-23 09:10:09</sys_updated_on>
+        <table>x_77597_smart_scho_student_register</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</application>
+        <file_path/>
+        <instance_id>e428de19db1773c88aea21c40596195a</instance_id>
+        <instance_name>dev91615</instance_name>
+        <name>sys_script_client_b804254a2fad10106a2711c82799b667</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_address_1&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Hide postal address tab&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+	//Type appropriate comment here, and begin script below
+	var sections = g_form.getSections();
+	sections[2].style.display = 'none';
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-06-23 09:09:44&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b804254a2fad10106a2711c82799b667&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Hide postal address tab&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Smart School Record" source="x_77597_smart_scho"&gt;8392fa442f6510106a2711c82799b66b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Smart School Record"&gt;8392fa442f6510106a2711c82799b66b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_b804254a2fad10106a2711c82799b667&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-06-23 09:10:09&lt;/sys_updated_on&gt;&lt;table&gt;x_77597_smart_scho_student_register&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1963260946</payload_hash>
+        <record_name>Hide postal address tab</record_name>
+        <reverted_from/>
+        <source>8792fa442f6510106a2711c82799b66d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-23 09:10:09</sys_created_on>
+        <sys_id>e354654a2fad10106a2711c82799b651</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172e0711f2b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-23 09:10:09</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>2f54654a72ad101037b1fcbf37888350</update_guid>
+        <update_guid_history>2f54654a72ad101037b1fcbf37888350:-1963260946,dd44e54a34ad1010d2a0c15139394150:-1529568147</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-23 09:11:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>432525475ebc4c43b164ae20c4eb39b1</sys_id>
+        <sys_metadata>b804254a2fad10106a2711c82799b667</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hide postal address tab</sys_name>
+        <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+        <sys_parent display_value="Student Register">799844b82fad50106a2711c82799b61c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+        <sys_scope_delete display_value="">9e9ceb8bf7b2405baf403ca063079259</sys_scope_delete>
+        <sys_update_name>sys_script_client_b804254a2fad10106a2711c82799b667</sys_update_name>
+        <sys_update_version display_value="sys_script_client_b804254a2fad10106a2711c82799b667">e354654a2fad10106a2711c82799b651</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-23 09:11:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

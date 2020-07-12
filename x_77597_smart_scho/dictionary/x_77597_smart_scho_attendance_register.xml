@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Attendance Register" max_length="40" name="x_77597_smart_scho_attendance_register" sizeclass="13" type="collection">
+        <element attributes="encode_utf8=false" label="Attendance Marked By" max_length="32" name="attendance_marked_by" reference="x_77597_smart_scho_teacher_and_staff_table" type="reference"/>
+        <element label="Date" max_length="10" name="date" type="glide_date"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Done" sequence="1" value="Done"/>
+                <element inactive_on_update="false" label="Pending" sequence="2" value="Pending"/>
+            </choice>
+        </element>
+        <element label="Year / Class" max_length="32" name="year_class" reference="x_77597_smart_scho_class_section_details" reference_qual="class_sectionISNOTEMPTY^EQ" reference_qual_condition="class_sectionISNOTEMPTY^EQ" type="reference"/>
+        <index name="index">
+            <element name="year_class"/>
+        </index>
+        <index name="index2">
+            <element name="attendance_marked_by"/>
+        </index>
+    </element>
+</database>

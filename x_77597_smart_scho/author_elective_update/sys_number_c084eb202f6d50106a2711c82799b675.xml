@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_77597_smart_scho_class_details">x_77597_smart_scho_class_details</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>CLS</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-19 02:39:05</sys_created_on>
+        <sys_id>c084eb202f6d50106a2711c82799b675</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CLS</sys_name>
+        <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+        <sys_update_name>sys_number_c084eb202f6d50106a2711c82799b675</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-19 02:39:05</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</application>
+        <file_path/>
+        <instance_id>e428de19db1773c88aea21c40596195a</instance_id>
+        <instance_name>dev91615</instance_name>
+        <name>sys_number_c084eb202f6d50106a2711c82799b675</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_77597_smart_scho_class_details">x_77597_smart_scho_class_details</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>CLS</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-19 02:39:05</sys_created_on><sys_id>c084eb202f6d50106a2711c82799b675</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CLS</sys_name><sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package><sys_policy/><sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope><sys_update_name>sys_number_c084eb202f6d50106a2711c82799b675</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-19 02:39:05</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>489502880</payload_hash>
+        <record_name>CLS</record_name>
+        <reverted_from/>
+        <source>8792fa442f6510106a2711c82799b66d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-19 02:39:05</sys_created_on>
+        <sys_id>cc84eb202f6d50106a2711c82799b67b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172ca71a8710000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-19 02:39:05</sys_updated_on>
+        <type>Number</type>
+        <update_guid>0884eb20966d50106185ead2978fe07b</update_guid>
+        <update_guid_history>0884eb20966d50106185ead2978fe07b:489502880</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-22 11:20:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>3ea7e34e2c8549b49c42bb9f73e79f90</sys_id>
+        <sys_metadata>c084eb202f6d50106a2711c82799b675</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CLS</sys_name>
+        <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+        <sys_parent display_value="">d35dd32c2f2d50106a2711c82799b6fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+        <sys_scope_delete display_value="">9e9ceb8bf7b2405baf403ca063079259</sys_scope_delete>
+        <sys_update_name>sys_number_c084eb202f6d50106a2711c82799b675</sys_update_name>
+        <sys_update_version display_value="sys_number_c084eb202f6d50106a2711c82799b675">cc84eb202f6d50106a2711c82799b67b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-22 11:20:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

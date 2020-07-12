@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="u_subject" table="x_77597_smart_scho_class_details" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_subject</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Physical Education</label>
+            <language>en</language>
+            <name>x_77597_smart_scho_class_details</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-19 03:16:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>10fceba42f6d50106a2711c82799b6f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-19 03:16:11</sys_updated_on>
+            <value>PT</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_subject</element>
+            <name>x_77597_smart_scho_class_details</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-19 03:09:02</sys_created_on>
+            <sys_id>f25b67a42f6d50106a2711c82799b622</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_subject</sys_name>
+            <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+            <sys_update_name>sys_choice_x_77597_smart_scho_class_details_u_subject</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-19 03:09:02</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</application>
+        <file_path/>
+        <instance_id>e428de19db1773c88aea21c40596195a</instance_id>
+        <instance_name>dev91615</instance_name>
+        <name>sys_choice_x_77597_smart_scho_class_details_u_subject</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_subject" table="x_77597_smart_scho_class_details" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_subject</element><hint/><inactive>false</inactive><label>Physical Education</label><language>en</language><name>x_77597_smart_scho_class_details</name><sequence>10</sequence><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-19 03:16:11</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>10fceba42f6d50106a2711c82799b6f6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-19 03:16:11</sys_updated_on><value>PT</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>u_subject</element><name>x_77597_smart_scho_class_details</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-19 03:09:02</sys_created_on><sys_id>f25b67a42f6d50106a2711c82799b622</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_subject</sys_name><sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package><sys_policy/><sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope><sys_update_name>sys_choice_x_77597_smart_scho_class_details_u_subject</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-19 03:09:02</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>11812913</payload_hash>
+        <record_name>x_77597_smart_scho_class_details.u_subject</record_name>
+        <reverted_from/>
+        <source>8792fa442f6510106a2711c82799b66d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-22 11:20:43</sys_created_on>
+        <sys_id>92a8f4f12fa110106a2711c82799b6e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172dbc24bdf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-22 11:20:43</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>daa8f4f129a1101088ee844b57968be4</update_guid>
+        <update_guid_history>daa8f4f129a1101088ee844b57968be4:11812913,dea8f4f11da110109f0f234539022be0:1931556686,d2a8f4f1c2a11010db2709054cc8c8dd:852538964,d6a8f4f110a11010d1491dabd0674fd9:607231918,daa8f4f1e0a11010632585f75ebe87d5:-1689370099,dea8f4f142a110107709dfa4d319d0d1:-1187473032,d2a8f4f1dda110105227b804c12ca8ce:-1406442691,c6a8f4f168a110108d3014e74f2bc2ca:-2094166819,caa8f4f126a11010df433537613241c6:-1411698466,effc23e4bf6d501071847f7fb10e1af9:-2141347142,42eca7e4656d5010528e4362ba31f6ec:-1617105216,97bc27e4806d5010c4bcc4439dbf0402:2068502855,97ace3e4886d50106ccfd7a1afcbf8cb:1338754832,1d8c2fa4c36d5010c0efcb7dc33eb84f:-1572619042,2a4ca3e4676d50106ee37ccc43d7ae65:-595988791,a21c23e4526d50101352b0b9834f064f:-1390245280,a8bbef64fc6d50107dffae12c5aeb0f7:-979710101,839b6ba4a66d5010cd613eae3d97539d:-6813274,677b6f64d06d50109983d1f5210a377c:-1031972802,7a5b67a4aa6d50108fd0b681557ba424:1601044123</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-22 11:20:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>f25b67a42f6d50106a2711c82799b622</sys_id>
+        <sys_metadata>f25b67a42f6d50106a2711c82799b622</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_subject</sys_name>
+        <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+        <sys_scope_delete display_value="">9e9ceb8bf7b2405baf403ca063079259</sys_scope_delete>
+        <sys_update_name>sys_choice_x_77597_smart_scho_class_details_u_subject</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_77597_smart_scho_class_details_u_subject">92a8f4f12fa110106a2711c82799b6e5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-22 11:20:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

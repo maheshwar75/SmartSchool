@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_class_assigned</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 11:06:05</sys_created_on>
+        <sys_id>c368c3922f6d50106a2711c82799b6ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_class_assigned</sys_name>
+        <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+        <sys_update_name>sys_ui_policy_action_c368c3922f6d50106a2711c82799b6ed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 11:06:05</sys_updated_on>
+        <table>x_77597_smart_scho_teacher_and_staff_table</table>
+        <ui_policy display_value="Hide class field if teacher is not class teacher">b72803922f6d50106a2711c82799b6ed</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</application>
+        <file_path/>
+        <instance_id>e428de19db1773c88aea21c40596195a</instance_id>
+        <instance_name>dev91615</instance_name>
+        <name>sys_ui_policy_action_c368c3922f6d50106a2711c82799b6ed</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>u_class_assigned</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-24 11:06:05</sys_created_on><sys_id>c368c3922f6d50106a2711c82799b6ed</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_class_assigned</sys_name><sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package><sys_policy/><sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope><sys_update_name>sys_ui_policy_action_c368c3922f6d50106a2711c82799b6ed</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-24 11:06:05</sys_updated_on><table>x_77597_smart_scho_teacher_and_staff_table</table><ui_policy display_value="Hide class field if teacher is not class teacher">b72803922f6d50106a2711c82799b6ed</ui_policy><visible>false</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1333725920</payload_hash>
+        <record_name>u_class_assigned</record_name>
+        <reverted_from/>
+        <source>8792fa442f6510106a2711c82799b66d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 11:06:05</sys_created_on>
+        <sys_id>df788b522f6d50106a2711c82799b6d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172e6019dbb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 11:06:05</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>1b788b525a6d5010ae96d1ac5555b6d1</update_guid>
+        <update_guid_history>1b788b525a6d5010ae96d1ac5555b6d1:-1333725920</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-25 10:37:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>5152a7f623534042a5fa3c1c219ea369</sys_id>
+        <sys_metadata>c368c3922f6d50106a2711c82799b6ed</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_class_assigned</sys_name>
+        <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+        <sys_parent display_value="Hide class field if teacher is not class teacher">b72803922f6d50106a2711c82799b6ed</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+        <sys_scope_delete display_value="">9e9ceb8bf7b2405baf403ca063079259</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_c368c3922f6d50106a2711c82799b6ed</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_c368c3922f6d50106a2711c82799b6ed">df788b522f6d50106a2711c82799b6d1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-25 10:37:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

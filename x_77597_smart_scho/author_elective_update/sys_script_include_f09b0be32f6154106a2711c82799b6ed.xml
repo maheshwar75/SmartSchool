@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_77597_smart_scho.Loggedinuserdetail</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>Loggedinuserdetail</name>
+        <script><![CDATA[var Loggedinuserdetail = Class.create();
+Loggedinuserdetail.prototype = {
+	initialize: function() {
+	},
+	attendance_info: function() {
+		var result = this.newItem ("result");
+		var logged_user = gs.getUserID();
+		gs.info("User name is: {0}", logged_user);
+		var user_detail = new GlideRecord('sys_user');
+		user_detail.addQuery('sys_id', logged_user);
+		user_detail.query();
+		if (user_detail.next())
+		{
+// 			result.setAttribute("user", user_detail.sys_id);
+// 			result.setAttribute("fname", user_detail.first_name);
+// 			result.setAttribute("lname", user_detail.last_name);
+			gs.info(user_detail.first_name);
+		}
+	
+	},
+	type: 'Loggedinuserdetail'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-28 08:35:47</sys_created_on>
+        <sys_id>f09b0be32f6154106a2711c82799b6ed</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Loggedinuserdetail</sys_name>
+        <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+        <sys_update_name>sys_script_include_f09b0be32f6154106a2711c82799b6ed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 03:07:49</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</application>
+        <file_path/>
+        <instance_id>e428de19db1773c88aea21c40596195a</instance_id>
+        <instance_name>dev91615</instance_name>
+        <name>sys_script_include_f09b0be32f6154106a2711c82799b6ed</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_77597_smart_scho.Loggedinuserdetail&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;Loggedinuserdetail&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var Loggedinuserdetail = Class.create();
+Loggedinuserdetail.prototype = {
+	initialize: function() {
+	},
+	attendance_info: function() {
+		var result = this.newItem ("result");
+		var logged_user = gs.getUserID();
+		gs.info("User name is: {0}", logged_user);
+		var user_detail = new GlideRecord('sys_user');
+		user_detail.addQuery('sys_id', logged_user);
+		user_detail.query();
+		if (user_detail.next())
+		{
+// 			result.setAttribute("user", user_detail.sys_id);
+// 			result.setAttribute("fname", user_detail.first_name);
+// 			result.setAttribute("lname", user_detail.last_name);
+			gs.info(user_detail.first_name);
+		}
+	
+	},
+	type: 'Loggedinuserdetail'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-06-28 08:35:47&lt;/sys_created_on&gt;&lt;sys_id&gt;f09b0be32f6154106a2711c82799b6ed&lt;/sys_id&gt;&lt;sys_mod_count&gt;15&lt;/sys_mod_count&gt;&lt;sys_name&gt;Loggedinuserdetail&lt;/sys_name&gt;&lt;sys_package display_value="Smart School Record" source="x_77597_smart_scho"&gt;8392fa442f6510106a2711c82799b66b&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Smart School Record"&gt;8392fa442f6510106a2711c82799b66b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_f09b0be32f6154106a2711c82799b6ed&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-06-30 03:07:49&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2033157690</payload_hash>
+        <record_name>Loggedinuserdetail</record_name>
+        <reverted_from/>
+        <source>8792fa442f6510106a2711c82799b66d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 03:07:49</sys_created_on>
+        <sys_id>009414942f3110106a2711c82799b6b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1730331e83b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 03:07:49</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>4894149465311010811014023e1e1bb4</update_guid>
+        <update_guid_history>4894149465311010811014023e1e1bb4:2033157690,d8e35494d33110101bfee4bd6daa7c58:-808188450,d773545419311010d15d8983b32e3728:948593166,c378600898fd5410ff395aab186ecb81:-575963627,6706d8480fbd5410f055525dc0cd2626:628397224,94d354883fbd5410f2cb833615f05e20:-62024361,bc935c4816bd5410c844490ecb8428cf:-1375756125,851398483bbd5410f23a0938d0261416:1001923322,a4d258488bbd541091e4c938c300165e:829681038,997f80c418bd54100b19db1fbb48d915:-1063044401,795f404472bd5410f1f1326aed4b6443:-42718359,33fd8c045abd54109b73502051175fbb:11946727,f94c8c04d4bd541057aba84516252181:1057056772,dc0cc80495bd5410d9ce8334fc62f511:109905156,56dec7a31f6154107efb9334c383f707:369841016,7c7c0be3b4615410b5e02ecebb728bf4:150859099</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 03:12:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>43004e543b94454e978aee2319fe9fa4</sys_id>
+        <sys_metadata>f09b0be32f6154106a2711c82799b6ed</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Loggedinuserdetail</sys_name>
+        <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+        <sys_scope_delete display_value="">9e9ceb8bf7b2405baf403ca063079259</sys_scope_delete>
+        <sys_update_name>sys_script_include_f09b0be32f6154106a2711c82799b6ed</sys_update_name>
+        <sys_update_version display_value="sys_script_include_f09b0be32f6154106a2711c82799b6ed">009414942f3110106a2711c82799b6b5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 03:12:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

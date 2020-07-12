@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_subjects" table="x_77597_smart_scho_class_section_details" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_subjects</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>English</label>
+            <language>en</language>
+            <name>x_77597_smart_scho_class_section_details</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-22 11:11:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be8678712fa110106a2711c82799b6dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-22 11:11:44</sys_updated_on>
+            <value>English</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_subjects</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mathematics</label>
+            <language>en</language>
+            <name>x_77597_smart_scho_class_section_details</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-22 11:12:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>90a678712fa110106a2711c82799b6a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-22 11:12:10</sys_updated_on>
+            <value>mathematics</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_subjects</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Environmental Science</label>
+            <language>en</language>
+            <name>x_77597_smart_scho_class_section_details</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-22 11:12:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f5b678712fa110106a2711c82799b6e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-22 11:12:32</sys_updated_on>
+            <value>science</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_subjects</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>History and Social Science</label>
+            <language>en</language>
+            <name>x_77597_smart_scho_class_section_details</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-22 11:12:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>14d6b8712fa110106a2711c82799b6db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-22 11:12:54</sys_updated_on>
+            <value>has</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_subjects</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Music</label>
+            <language>en</language>
+            <name>x_77597_smart_scho_class_section_details</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-22 11:13:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>38e6bcfd2f6110106a2711c82799b6ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-22 11:13:14</sys_updated_on>
+            <value>music</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_subjects</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sports</label>
+            <language>en</language>
+            <name>x_77597_smart_scho_class_section_details</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-22 11:13:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dc07f8712fa110106a2711c82799b6c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-22 11:13:38</sys_updated_on>
+            <value>sports</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_subjects</element>
+            <name>x_77597_smart_scho_class_section_details</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-22 11:11:44</sys_created_on>
+            <sys_id>f696bcfd2f6110106a2711c82799b6ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_subjects</sys_name>
+            <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+            <sys_update_name>sys_choice_x_77597_smart_scho_class_section_details_u_subjects</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-22 11:11:44</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

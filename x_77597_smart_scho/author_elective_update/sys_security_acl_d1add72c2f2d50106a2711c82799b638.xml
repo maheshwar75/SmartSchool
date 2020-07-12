@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_77597_smart_scho_class_details</description>
+        <name>x_77597_smart_scho_class_details</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-19 02:09:08</sys_created_on>
+        <sys_id>d1add72c2f2d50106a2711c82799b638</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_77597_smart_scho_class_details</sys_name>
+        <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+        <sys_update_name>sys_security_acl_d1add72c2f2d50106a2711c82799b638</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-19 02:09:08</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</application>
+        <file_path/>
+        <instance_id>e428de19db1773c88aea21c40596195a</instance_id>
+        <instance_name>dev91615</instance_name>
+        <name>sys_security_acl_d1add72c2f2d50106a2711c82799b638</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_77597_smart_scho_class_details</description><name>x_77597_smart_scho_class_details</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-19 02:09:08</sys_created_on><sys_id>d1add72c2f2d50106a2711c82799b638</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_77597_smart_scho_class_details</sys_name><sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package><sys_policy/><sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope><sys_update_name>sys_security_acl_d1add72c2f2d50106a2711c82799b638</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-19 02:09:08</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-761355006</payload_hash>
+        <record_name>x_77597_smart_scho_class_details</record_name>
+        <reverted_from/>
+        <source>8792fa442f6510106a2711c82799b66d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-19 02:09:08</sys_created_on>
+        <sys_id>ddadd72c2f2d50106a2711c82799b63b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172ca563aaf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-19 02:09:08</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>19add72c602d501090ec866b48ccad3b</update_guid>
+        <update_guid_history>19add72c602d501090ec866b48ccad3b:-761355006</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-22 11:20:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>b1b138569afd4cbd870b6f33e89c3b79</sys_id>
+        <sys_metadata>d1add72c2f2d50106a2711c82799b638</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_77597_smart_scho_class_details</sys_name>
+        <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+        <sys_parent display_value="">5dadd72c2f2d50106a2711c82799b650</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+        <sys_scope_delete display_value="">9e9ceb8bf7b2405baf403ca063079259</sys_scope_delete>
+        <sys_update_name>sys_security_acl_d1add72c2f2d50106a2711c82799b638</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_d1add72c2f2d50106a2711c82799b638">ddadd72c2f2d50106a2711c82799b63b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-22 11:20:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

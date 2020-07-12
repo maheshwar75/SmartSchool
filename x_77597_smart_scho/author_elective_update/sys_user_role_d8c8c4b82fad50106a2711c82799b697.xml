@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_77597_smart_scho.student_register_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>student_register_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-19 05:17:28</sys_created_on>
+        <sys_id>d8c8c4b82fad50106a2711c82799b697</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_77597_smart_scho.student_register_user</sys_name>
+        <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+        <sys_update_name>sys_user_role_d8c8c4b82fad50106a2711c82799b697</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-19 05:17:28</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</application>
+        <file_path/>
+        <instance_id>e428de19db1773c88aea21c40596195a</instance_id>
+        <instance_name>dev91615</instance_name>
+        <name>sys_user_role_d8c8c4b82fad50106a2711c82799b697</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_77597_smart_scho.student_register_user</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>student_register_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-19 05:17:28</sys_created_on><sys_id>d8c8c4b82fad50106a2711c82799b697</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_77597_smart_scho.student_register_user</sys_name><sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package><sys_policy/><sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope><sys_update_name>sys_user_role_d8c8c4b82fad50106a2711c82799b697</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-19 05:17:28</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>11370574</payload_hash>
+        <record_name>x_77597_smart_scho.student_register_user</record_name>
+        <reverted_from/>
+        <source>8792fa442f6510106a2711c82799b66d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-19 05:17:28</sys_created_on>
+        <sys_id>1cc8c4b82fad50106a2711c82799b69b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172cb02a94e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-19 05:17:28</sys_updated_on>
+        <type>Role</type>
+        <update_guid>54c8c4b82aad501026c1f67407e2ae9b</update_guid>
+        <update_guid_history>54c8c4b82aad501026c1f67407e2ae9b:11370574</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_77597_smart_scho.student_register_user">9f3d9b062f3910106a2711c82799b61e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-06 04:13:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>03a8d9a8cd734498800f57bd61899f64</sys_id>
+        <sys_metadata>d8c8c4b82fad50106a2711c82799b697</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_77597_smart_scho.student_register_user</sys_name>
+        <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+        <sys_scope_delete display_value="">9e9ceb8bf7b2405baf403ca063079259</sys_scope_delete>
+        <sys_update_name>sys_user_role_d8c8c4b82fad50106a2711c82799b697</sys_update_name>
+        <sys_update_version display_value="sys_user_role_d8c8c4b82fad50106a2711c82799b697">1cc8c4b82fad50106a2711c82799b69b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-06 04:13:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

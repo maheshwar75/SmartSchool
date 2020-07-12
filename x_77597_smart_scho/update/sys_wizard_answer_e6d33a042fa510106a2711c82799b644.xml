@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>School</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>School</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">c4f2bb841b230010c03cdd3cdc4bcb8a</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-17 09:49:34</sys_created_on>
+        <sys_id>e6d33a042fa510106a2711c82799b644</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>School</sys_name>
+        <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+        <sys_update_name>sys_wizard_answer_e6d33a042fa510106a2711c82799b644</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-17 09:49:34</sys_updated_on>
+        <table/>
+        <target_url>x_77597_smart_scho_school.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

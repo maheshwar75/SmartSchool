@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_sch_icon" label="School Icon" language="en" table="x_77597_smart_scho_school">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_sch_icon</element>
+            <help/>
+            <hint/>
+            <label>School Icon</label>
+            <language>en</language>
+            <name>x_77597_smart_scho_school</name>
+            <plural>School Icons</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-17 11:03:03</sys_created_on>
+            <sys_id>43a44b402fe510106a2711c82799b616</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>School Icon</sys_name>
+            <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+            <sys_update_name>sys_documentation_x_77597_smart_scho_school_u_sch_icon_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-17 11:03:03</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

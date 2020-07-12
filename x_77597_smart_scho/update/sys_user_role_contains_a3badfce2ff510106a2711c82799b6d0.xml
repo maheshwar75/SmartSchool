@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</contains>
+        <role display_value="x_77597_smart_scho.school_principal" name="x_77597_smart_scho.school_principal">749adfce2ff510106a2711c82799b6cc</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-06 04:03:03</sys_created_on>
+        <sys_id>a3badfce2ff510106a2711c82799b6d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>admin.x_77597_smart_scho.School Principal</sys_name>
+        <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+        <sys_update_name>sys_user_role_contains_a3badfce2ff510106a2711c82799b6d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-06 04:03:03</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

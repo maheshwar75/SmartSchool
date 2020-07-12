@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_77597_smart_scho.Loggedinteacherdetail</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>Loggedinteacherdetail</name>
+        <script><![CDATA[var Loggedinteacherdetail = Class.create();
+Loggedinteacherdetail.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	attendance_info: function() {
+		var xyz = '';
+// 		gs.info("User name is: {0}", gs.getUserID());
+		var user_detail = new GlideRecord('sys_user');
+		user_detail.addQuery('sys_id', gs.getUserID());
+		user_detail.query();
+		if (user_detail.next())
+		{
+			var abc = this.teachername_info(user_detail.first_name+ " " +user_detail.last_name);
+			return abc;
+// 			xyz.push (abc);
+// 			gs.info("Test 123: {0}", xyz);
+// 			return JSON.stringify(xyz);
+		}
+	},
+
+	teachername_info : function (teachername){
+		var tname = new GlideRecord('x_77597_smart_scho_teacher_and_staff_table');
+		tname.addQuery('teacher_name', teachername);
+		tname.query();
+		if (tname.next()){
+// 			gs.info("VR: fteacher sys_id: {0}", tname.sys_id);
+			return tname.sys_id;
+		}
+
+	},
+
+	type: 'Loggedinteacherdetail'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 03:11:15</sys_created_on>
+        <sys_id>4a1550d42f3110106a2711c82799b6cb</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Loggedinteacherdetail</sys_name>
+        <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+        <sys_update_name>sys_script_include_4a1550d42f3110106a2711c82799b6cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-01 05:11:00</sys_updated_on>
+    </sys_script_include>
+</record_update>

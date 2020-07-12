@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_77597_smart_scho_home_work_assignment" label="Assignment Response Sheet" max_length="40" name="x_77597_smart_scho_assignment_response_sheet" sizeclass="0" type="collection">
+        <element label="Assignment Number" max_length="32" name="assignment_number" reference="x_77597_smart_scho_home_work_assignment" type="reference"/>
+        <element label="Answer" max_length="65536" name="u_answer" type="html"/>
+        <element label="Attachment" max_length="40" name="u_attachment" type="file_attachment"/>
+        <index name="index">
+            <element name="assignment_number"/>
+        </index>
+    </element>
+</database>

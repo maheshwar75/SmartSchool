@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="55bd5be82f2d50106a2711c82799b6a8" sys_domain="global" table="x_77597_smart_scho_class_details" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-19 03:17:59</sys_created_on>
+            <sys_id>796defe42f6d50106a2711c82799b608</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77597_smart_scho_class_details" sys_domain="global" view="Default view">55bd5be82f2d50106a2711c82799b6a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-19 03:17:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_year</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-19 03:17:59</sys_created_on>
+            <sys_id>fd6defe42f6d50106a2711c82799b608</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77597_smart_scho_class_details" sys_domain="global" view="Default view">55bd5be82f2d50106a2711c82799b6a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-19 03:17:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_section</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-19 03:17:59</sys_created_on>
+            <sys_id>716defe42f6d50106a2711c82799b609</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77597_smart_scho_class_details" sys_domain="global" view="Default view">55bd5be82f2d50106a2711c82799b6a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-19 03:17:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>stream</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-19 03:17:59</sys_created_on>
+            <sys_id>f16defe42f6d50106a2711c82799b609</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77597_smart_scho_class_details" sys_domain="global" view="Default view">55bd5be82f2d50106a2711c82799b6a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-19 03:17:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_wing</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-19 03:17:59</sys_created_on>
+            <sys_id>466defe42f6d50106a2711c82799b609</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77597_smart_scho_class_details" sys_domain="global" view="Default view">55bd5be82f2d50106a2711c82799b6a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-19 03:17:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_class_teacher</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-19 03:17:59</sys_created_on>
+            <sys_id>c66defe42f6d50106a2711c82799b609</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77597_smart_scho_class_details" sys_domain="global" view="Default view">55bd5be82f2d50106a2711c82799b6a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-19 03:17:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_subject</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-19 03:17:59</sys_created_on>
+            <sys_id>4a6defe42f6d50106a2711c82799b609</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77597_smart_scho_class_details" sys_domain="global" view="Default view">55bd5be82f2d50106a2711c82799b6a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-19 03:17:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_head_count</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-19 03:17:59</sys_created_on>
+            <sys_id>ca6defe42f6d50106a2711c82799b609</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77597_smart_scho_class_details" sys_domain="global" view="Default view">55bd5be82f2d50106a2711c82799b6a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-19 03:17:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-19 03:17:59</sys_created_on>
+            <sys_id>4e6defe42f6d50106a2711c82799b609</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77597_smart_scho_class_details" sys_domain="global" view="Default view">55bd5be82f2d50106a2711c82799b6a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-19 03:17:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-19 03:17:59</sys_created_on>
+            <sys_id>ce6defe42f6d50106a2711c82799b609</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77597_smart_scho_class_details" sys_domain="global" view="Default view">55bd5be82f2d50106a2711c82799b6a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-19 03:17:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-19 03:17:59</sys_created_on>
+            <sys_id>426defe42f6d50106a2711c82799b60a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77597_smart_scho_class_details" sys_domain="global" view="Default view">55bd5be82f2d50106a2711c82799b6a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-19 03:17:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cmdb_ci</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-19 03:17:59</sys_created_on>
+            <sys_id>c26defe42f6d50106a2711c82799b60a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77597_smart_scho_class_details" sys_domain="global" view="Default view">55bd5be82f2d50106a2711c82799b6a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-19 03:17:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_77597_smart_scho_class_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-19 02:09:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>55bd5be82f2d50106a2711c82799b6a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_77597_smart_scho_class_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+            <sys_update_name>sys_ui_section_55bd5be82f2d50106a2711c82799b6a8</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-19 02:09:24</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</application>
+        <file_path/>
+        <instance_id>e428de19db1773c88aea21c40596195a</instance_id>
+        <instance_name>dev91615</instance_name>
+        <name>sys_ui_section_55bd5be82f2d50106a2711c82799b6a8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="55bd5be82f2d50106a2711c82799b6a8" sys_domain="global" table="x_77597_smart_scho_class_details" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-19 03:17:59</sys_created_on><sys_id>796defe42f6d50106a2711c82799b608</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_77597_smart_scho_class_details" sys_domain="global" view="Default view">55bd5be82f2d50106a2711c82799b6a8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-19 03:17:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_year</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-19 03:17:59</sys_created_on><sys_id>fd6defe42f6d50106a2711c82799b608</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_77597_smart_scho_class_details" sys_domain="global" view="Default view">55bd5be82f2d50106a2711c82799b6a8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-19 03:17:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_section</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-19 03:17:59</sys_created_on><sys_id>716defe42f6d50106a2711c82799b609</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_77597_smart_scho_class_details" sys_domain="global" view="Default view">55bd5be82f2d50106a2711c82799b6a8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-19 03:17:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>stream</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-19 03:17:59</sys_created_on><sys_id>f16defe42f6d50106a2711c82799b609</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_77597_smart_scho_class_details" sys_domain="global" view="Default view">55bd5be82f2d50106a2711c82799b6a8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-19 03:17:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_wing</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-19 03:17:59</sys_created_on><sys_id>466defe42f6d50106a2711c82799b609</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_77597_smart_scho_class_details" sys_domain="global" view="Default view">55bd5be82f2d50106a2711c82799b6a8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-19 03:17:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_class_teacher</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-19 03:17:59</sys_created_on><sys_id>c66defe42f6d50106a2711c82799b609</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_77597_smart_scho_class_details" sys_domain="global" view="Default view">55bd5be82f2d50106a2711c82799b6a8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-19 03:17:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_subject</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-19 03:17:59</sys_created_on><sys_id>4a6defe42f6d50106a2711c82799b609</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_77597_smart_scho_class_details" sys_domain="global" view="Default view">55bd5be82f2d50106a2711c82799b6a8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-19 03:17:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_head_count</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-19 03:17:59</sys_created_on><sys_id>ca6defe42f6d50106a2711c82799b609</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_77597_smart_scho_class_details" sys_domain="global" view="Default view">55bd5be82f2d50106a2711c82799b6a8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-19 03:17:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>active</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-19 03:17:59</sys_created_on><sys_id>4e6defe42f6d50106a2711c82799b609</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_77597_smart_scho_class_details" sys_domain="global" view="Default view">55bd5be82f2d50106a2711c82799b6a8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-19 03:17:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>short_description</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-19 03:17:59</sys_created_on><sys_id>ce6defe42f6d50106a2711c82799b609</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_77597_smart_scho_class_details" sys_domain="global" view="Default view">55bd5be82f2d50106a2711c82799b6a8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-19 03:17:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-19 03:17:59</sys_created_on><sys_id>426defe42f6d50106a2711c82799b60a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_77597_smart_scho_class_details" sys_domain="global" view="Default view">55bd5be82f2d50106a2711c82799b6a8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-19 03:17:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>cmdb_ci</element><position>11</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-19 03:17:59</sys_created_on><sys_id>c26defe42f6d50106a2711c82799b60a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_77597_smart_scho_class_details" sys_domain="global" view="Default view">55bd5be82f2d50106a2711c82799b6a8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-19 03:17:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_77597_smart_scho_class_details</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-19 02:09:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>55bd5be82f2d50106a2711c82799b6a8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_77597_smart_scho_class_details</sys_name><sys_overrides/><sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package><sys_policy/><sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope><sys_update_name>sys_ui_section_55bd5be82f2d50106a2711c82799b6a8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-19 02:09:24</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>37825491</payload_hash>
+        <record_name>Class Details</record_name>
+        <reverted_from/>
+        <source>8792fa442f6510106a2711c82799b66d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-19 03:17:59</sys_created_on>
+        <sys_id>c66defe42f6d50106a2711c82799b60c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172ca9545060000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-19 03:17:59</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>ce6defe4146d501042544e2f70dddc0b</update_guid>
+        <update_guid_history>ce6defe4146d501042544e2f70dddc0b:37825491,bab1a7ecce2d50108bb32f2ce90c05ac:1097484470,f6b1a7ecfe2d50106f0f736878a60ca6:1969322885</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-22 11:20:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>341f297bf9e04e51a528233ddb3299d9</sys_id>
+        <sys_metadata>55bd5be82f2d50106a2711c82799b6a8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_77597_smart_scho_class_details</sys_name>
+        <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+        <sys_parent display_value="">d35dd32c2f2d50106a2711c82799b6fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+        <sys_scope_delete display_value="">9e9ceb8bf7b2405baf403ca063079259</sys_scope_delete>
+        <sys_update_name>sys_ui_section_55bd5be82f2d50106a2711c82799b6a8</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_55bd5be82f2d50106a2711c82799b6a8">c66defe42f6d50106a2711c82799b60c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-22 11:20:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

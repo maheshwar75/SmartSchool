@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="assignment_number" label="Assignment Number" language="en" table="x_77597_smart_scho_assignment_response_sheet">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>assignment_number</element>
+            <help/>
+            <hint/>
+            <label>Assignment Number</label>
+            <language>en</language>
+            <name>x_77597_smart_scho_assignment_response_sheet</name>
+            <plural>Assignment Numbers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-06 04:58:06</sys_created_on>
+            <sys_id>4657ebca2f3910106a2711c82799b6c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Assignment Number</sys_name>
+            <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+            <sys_update_name>sys_documentation_x_77597_smart_scho_assignment_response_sheet_assignment_number_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-06 04:58:06</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

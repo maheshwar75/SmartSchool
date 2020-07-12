@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Home Work Assignment" max_length="40" name="x_77597_smart_scho_home_work_assignment" sizeclass="0" type="collection">
+        <element attributes="encode_utf8=false" label="Class-Section" max_length="32" name="class_section" reference="x_77597_smart_scho_class_section_details" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Date" max_length="40" name="date" type="glide_date" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#9;&#13;&#10;&#13;&#10;})(current);" default="current.date.addDays(5);" label="Due Date" max_length="40" name="due_date" type="glide_date"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Question" max_length="65536" name="question" type="html"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Question" max_length="65536" name="u_question" type="html"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Subject" mandatory="true" max_length="40" name="u_subject" type="string">
+            <choice>
+                <element inactive_on_update="false" label="English" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Mathematics" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Science" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Social Science" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Arts" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Physics" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Chemistry" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Biology" sequence="7" value="8"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Teacher Name" max_length="32" name="u_teacher_name" read_only="true" reference="x_77597_smart_scho_teacher_and_staff_table" type="reference"/>
+        <index name="index">
+            <element name="class_section"/>
+        </index>
+        <index name="index2">
+            <element name="u_teacher_name"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

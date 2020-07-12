@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_77597_smart_scho_people_register" label="Student Register" max_length="40" name="x_77597_smart_scho_student_register" sizeclass="27" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Roll No." max_length="40" name="roll_no" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Student Name" max_length="100" name="student_name" type="string"/>
+        <element attributes="encode_utf8=false" dependent="u_class" dependent_on_field="u_class" label="Class - Section" max_length="32" name="u_class_year" reference="x_77597_smart_scho_class_section_details" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Section" max_length="40" name="u_section" type="string">
+            <choice>
+                <element inactive_on_update="false" label="A" sequence="0" value="a"/>
+                <element inactive_on_update="false" label="B" sequence="1" value="b"/>
+                <element inactive_on_update="false" label="C" sequence="2" value="c"/>
+                <element inactive_on_update="false" label="D" sequence="3" value="d"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Stream" max_length="10" name="u_stream" read_only="true" type="string"/>
+        <index name="index">
+            <element name="u_class_year"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Mark Attendance" max_length="40" name="x_77597_smart_scho_mark_attendance" sizeclass="363" type="collection">
+        <element choice="3" default="Present" label="Attendance" max_length="40" name="attendance" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Present" sequence="1" value="P"/>
+                <element inactive_on_update="false" label="Absent" sequence="2" value="A"/>
+                <element inactive_on_update="false" label="Sick Leave" sequence="3" value="SL"/>
+                <element inactive_on_update="false" label="Annual Leave" sequence="4" value="AL"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="ARN" max_length="40" name="number" reference="x_77597_smart_scho_attendance_register" type="reference"/>
+        <element label="Student Name" max_length="32" name="student_name" reference="x_77597_smart_scho_student_register" reference_qual="u_fnameISNOTEMPTY^EQ" reference_qual_condition="u_fnameISNOTEMPTY^EQ" type="reference"/>
+        <index name="index">
+            <element name="student_name"/>
+        </index>
+    </element>
+</database>

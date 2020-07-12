@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_address_1</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Hide Postal Address Tab-Student</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	//Type appropriate comment here, and begin script below
+	var gri = g_form.getValue('u_yes');
+	if (gri){		
+		g_form.setSectionDisplay('postal_addressdetails',false);
+	}
+	else {
+		g_form.setSectionDisplay('postal_addressdetails',true);
+	}
+	// 	var sections = g_form.getSections();
+	// 	sections[1].style.display = 'none';
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-23 12:55:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>01d79eca2f2150106a2711c82799b6d0</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Hide Postal Address Tab-Student</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+        <sys_update_name>sys_script_client_01d79eca2f2150106a2711c82799b6d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 11:29:55</sys_updated_on>
+        <table>x_77597_smart_scho_student_register</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

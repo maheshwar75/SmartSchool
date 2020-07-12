@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="u_section" table="x_77597_smart_scho_class_details" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_section</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>E</label>
+            <language>en</language>
+            <name>x_77597_smart_scho_class_details</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-19 02:21:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6e706bac2f2d50106a2711c82799b609</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-19 02:21:30</sys_updated_on>
+            <value>e</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_section</element>
+            <name>x_77597_smart_scho_class_details</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-19 02:21:30</sys_created_on>
+            <sys_id>de706bac2f2d50106a2711c82799b602</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_section</sys_name>
+            <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+            <sys_update_name>sys_choice_x_77597_smart_scho_class_details_u_section</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-19 02:21:30</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</application>
+        <file_path/>
+        <instance_id>e428de19db1773c88aea21c40596195a</instance_id>
+        <instance_name>dev91615</instance_name>
+        <name>sys_choice_x_77597_smart_scho_class_details_u_section</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_section" table="x_77597_smart_scho_class_details" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_section</element><hint/><inactive>false</inactive><label>E</label><language>en</language><name>x_77597_smart_scho_class_details</name><sequence>4</sequence><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-19 02:21:30</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6e706bac2f2d50106a2711c82799b609</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-19 02:21:30</sys_updated_on><value>e</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>u_section</element><name>x_77597_smart_scho_class_details</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-19 02:21:30</sys_created_on><sys_id>de706bac2f2d50106a2711c82799b602</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_section</sys_name><sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package><sys_policy/><sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope><sys_update_name>sys_choice_x_77597_smart_scho_class_details_u_section</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-19 02:21:30</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>315484567</payload_hash>
+        <record_name>x_77597_smart_scho_class_details.u_section</record_name>
+        <reverted_from/>
+        <source>8792fa442f6510106a2711c82799b66d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-22 11:20:42</sys_created_on>
+        <sys_id>82a8f4f12fa110106a2711c82799b6bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172dbc24a230000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-22 11:20:42</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>caa8f4f1a7a1101037aac1686d761abe</update_guid>
+        <update_guid_history>caa8f4f1a7a1101037aac1686d761abe:315484567,cea8f4f142a11010f316e7872f0da7ba:1064605693,c2a8f4f13aa1101077fb19628f8c00b7:528792216,c6a8f4f189a11010b21bcc60907a64b3:1310471868,a6706bac402d5010e8caef6567606a0c:-1807370215</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-22 11:20:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>de706bac2f2d50106a2711c82799b602</sys_id>
+        <sys_metadata>de706bac2f2d50106a2711c82799b602</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_section</sys_name>
+        <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+        <sys_scope_delete display_value="">9e9ceb8bf7b2405baf403ca063079259</sys_scope_delete>
+        <sys_update_name>sys_choice_x_77597_smart_scho_class_details_u_section</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_77597_smart_scho_class_details_u_section">82a8f4f12fa110106a2711c82799b6bf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-22 11:20:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

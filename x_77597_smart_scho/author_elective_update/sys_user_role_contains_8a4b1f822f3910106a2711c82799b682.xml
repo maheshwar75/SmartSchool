@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="DELETE">
+        <contains display_value="itil_admin" name="itil_admin">28322f3cc611228500e20459e33eef34</contains>
+        <role display_value="x_77597_smart_scho.School Teacher" name="x_77597_smart_scho.School Teacher">7acad3822f3910106a2711c82799b6a7</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-06 04:05:24</sys_created_on>
+        <sys_id>8a4b1f822f3910106a2711c82799b682</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>itil_admin.x_77597_smart_scho.School Teacher</sys_name>
+        <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+        <sys_update_name>sys_user_role_contains_8a4b1f822f3910106a2711c82799b682</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-06 04:05:24</sys_updated_on>
+    </sys_user_role_contains>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</application>
+        <file_path/>
+        <instance_id>e428de19db1773c88aea21c40596195a</instance_id>
+        <instance_name>dev91615</instance_name>
+        <name>sys_user_role_contains_8a4b1f822f3910106a2711c82799b682</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains"><sys_user_role_contains action="INSERT_OR_UPDATE"><contains display_value="itil_admin" name="itil_admin">28322f3cc611228500e20459e33eef34</contains><role display_value="x_77597_smart_scho.School Teacher" name="x_77597_smart_scho.School Teacher">7acad3822f3910106a2711c82799b6a7</role><sys_class_name>sys_user_role_contains</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-06 04:05:24</sys_created_on><sys_id>8a4b1f822f3910106a2711c82799b682</sys_id><sys_mod_count>0</sys_mod_count><sys_name>itil_admin.x_77597_smart_scho.School Teacher</sys_name><sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package><sys_policy/><sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope><sys_update_name>sys_user_role_contains_8a4b1f822f3910106a2711c82799b682</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-06 04:05:24</sys_updated_on></sys_user_role_contains></record_update>]]></payload>
+        <payload_hash>-246866924</payload_hash>
+        <record_name>itil_admin.x_77597_smart_scho.School Teacher</record_name>
+        <reverted_from/>
+        <source>8792fa442f6510106a2711c82799b66d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-06 04:05:24</sys_created_on>
+        <sys_id>464b1f822f3910106a2711c82799b698</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173224cca2a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-06 04:05:24</sys_updated_on>
+        <type>Contained Role</type>
+        <update_guid>8e4b1f82a53910100e11ff707e471a97</update_guid>
+        <update_guid_history>8e4b1f82a53910100e11ff707e471a97:-246866924</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-06 04:13:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role_contains">sys_user_role_contains</sys_db_object>
+        <sys_id>3df7cc968b8841d08a0d7929ee01b240</sys_id>
+        <sys_metadata>8a4b1f822f3910106a2711c82799b682</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>itil_admin.x_77597_smart_scho.School Teacher</sys_name>
+        <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+        <sys_scope_delete display_value="">9e9ceb8bf7b2405baf403ca063079259</sys_scope_delete>
+        <sys_update_name>sys_user_role_contains_8a4b1f822f3910106a2711c82799b682</sys_update_name>
+        <sys_update_version display_value="sys_user_role_contains_8a4b1f822f3910106a2711c82799b682">464b1f822f3910106a2711c82799b698</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-06 04:13:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

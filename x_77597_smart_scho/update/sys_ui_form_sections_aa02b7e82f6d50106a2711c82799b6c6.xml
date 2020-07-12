@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="aa02b7e82f6d50106a2711c82799b6c6" sys_domain="global" table="x_77597_smart_scho_people_register" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-19 03:38:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e602b7e82f6d50106a2711c82799b6c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_77597_smart_scho_people_register" name="x_77597_smart_scho_people_register" sys_domain="global" view="Default view">aa02b7e82f6d50106a2711c82799b6c6</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_77597_smart_scho_people_register" sys_domain="global" view="Default view">8ddf6f682f6d50106a2711c82799b657</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-19 03:38:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-19 03:38:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a202b7e82f6d50106a2711c82799b6ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_77597_smart_scho_people_register" name="x_77597_smart_scho_people_register" sys_domain="global" view="Default view">aa02b7e82f6d50106a2711c82799b6c6</sys_ui_form>
+            <sys_ui_section caption="Home Address Details" display_value="Home Address Details" name="x_77597_smart_scho_people_register" sys_domain="global" view="Default view">aa02b7e82f6d50106a2711c82799b6c5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-19 03:38:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-19 05:05:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b5e548382fad50106a2711c82799b637</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_77597_smart_scho_people_register" name="x_77597_smart_scho_people_register" sys_domain="global" view="Default view">aa02b7e82f6d50106a2711c82799b6c6</sys_ui_form>
+            <sys_ui_section caption="Postal Address Details" display_value="Postal Address Details" name="x_77597_smart_scho_people_register" sys_domain="global" view="Default view">75e508382fad50106a2711c82799b6f6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-19 05:05:01</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_77597_smart_scho_people_register</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-19 03:38:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aa02b7e82f6d50106a2711c82799b6c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_77597_smart_scho_people_register</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+            <sys_update_name>sys_ui_form_sections_aa02b7e82f6d50106a2711c82799b6c6</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-19 03:38:14</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

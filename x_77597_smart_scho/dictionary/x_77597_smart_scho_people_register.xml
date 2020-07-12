@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="People Register" max_length="40" name="x_77597_smart_scho_people_register" sizeclass="75" type="collection">
+        <element label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="4000" name="u_address_1" type="string"/>
+        <element attributes="encode_utf8=false" label="City" max_length="32" name="u_city" reference="cmdb_ci_appl_dot_net" type="reference"/>
+        <element attributes="encode_utf8=false" default="9138b7111b121100763d91eebc0713f6" label="Country" max_length="32" name="u_country" reference="core_country" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Date of Birth" max_length="40" name="u_dob" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="1024" name="u_email" type="url"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="First Name" max_length="40" name="u_fname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Gender" max_length="40" name="u_gender" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Male" sequence="0" value="male"/>
+                <element inactive_on_update="false" label="Female" sequence="1" value="female"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Home Phone No." max_length="15" name="u_hphone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" max_length="40" name="u_lname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Mobile" max_length="10" name="u_mobile" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="4000" name="u_paddress_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="City" max_length="40" name="u_pcity" type="string"/>
+        <element attributes="encode_utf8=false" label="Country" max_length="32" name="u_pcountry" reference="core_country" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone No." max_length="15" name="u_pphone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="u_pstate" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Northern Territory" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Queensland" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="New South Wales" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Canberra" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Victoria" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Tasmania" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="South Australia" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Western Australia" sequence="7" value="8"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Zip Code" max_length="40" name="u_pzip_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="u_state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Northern Territory" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Queensland" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="New South Wales" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Canberra" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Victoria" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Tasmania" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="South Australia" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Western Australia" sequence="7" value="8"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Title" max_length="40" name="u_title" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Mr." sequence="0" value="mr."/>
+                <element inactive_on_update="false" label="Mrs." sequence="1" value="mrs."/>
+                <element inactive_on_update="false" label="Ms." sequence="2" value="ms."/>
+                <element inactive_on_update="false" label="Master" sequence="3" value="mstr"/>
+                <element inactive_on_update="false" label="Miss" sequence="4" value="miss"/>
+                <element inactive_on_update="false" label="Dr." sequence="5" value="dr."/>
+            </choice>
+        </element>
+        <element label="Is Postal Address different from Home Address:" max_length="40" name="u_yes" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" dependent="u_state" dependent_on_field="u_state" label="Zip Code" max_length="40" name="u_zip_code" type="string" use_dependent_field="true"/>
+        <index name="index">
+            <element name="u_pcountry"/>
+        </index>
+        <index name="index2">
+            <element name="u_country"/>
+        </index>
+        <index name="index3">
+            <element name="u_city"/>
+        </index>
+    </element>
+</database>

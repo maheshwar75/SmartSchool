@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="attendance_marked_by" label="Attendance Marked By" language="en" table="x_77597_smart_scho_attendance_register">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>attendance_marked_by</element>
+            <help/>
+            <hint/>
+            <label>Attendance Marked By</label>
+            <language>en</language>
+            <name>x_77597_smart_scho_attendance_register</name>
+            <plural>Attendance Marked Bys</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>vishnu</sys_created_by>
+            <sys_created_on>2020-06-29 03:33:00</sys_created_on>
+            <sys_id>1fb0d37f2fe954106a2711c82799b611</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Attendance Marked By</sys_name>
+            <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+            <sys_update_name>sys_documentation_x_77597_smart_scho_attendance_register_attendance_marked_by_en</sys_update_name>
+            <sys_updated_by>vishnu</sys_updated_by>
+            <sys_updated_on>2020-06-29 03:33:00</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

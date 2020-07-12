@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_yes</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set Postal Address - Staff Inactive</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	var haddress1 = g_form.getValue('u_address_1');
+	var hcity = g_form.getValue('u_city');
+	var hstate = g_form.getValue('u_state');
+	var hzip = g_form.getValue('u_zip_code');
+	var hcountry = g_form.getValue('u_country');
+	var gr = g_form.getValue('u_yes');
+	if (gr == 'false'){
+		g_form.setValue('u_paddress_1', haddress1);
+		g_form.setValue('u_pcity', hcity);
+		g_form.setValue('u_pstate', hstate);
+		g_form.setValue('u_pcountry', hcountry);
+		g_form.setValue('u_pzip_code', hzip);
+	}
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-23 08:58:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d781e9c62fad10106a2711c82799b68a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Set Postal Address - Staff Inactive</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+        <sys_update_name>sys_script_client_d781e9c62fad10106a2711c82799b68a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-23 12:49:11</sys_updated_on>
+        <table>x_77597_smart_scho_teacher_and_staff_table</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</application>
+        <file_path/>
+        <instance_id>e428de19db1773c88aea21c40596195a</instance_id>
+        <instance_name>dev91615</instance_name>
+        <name>sys_script_client_d781e9c62fad10106a2711c82799b68a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_yes&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Set Postal Address - Staff Inactive&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	var haddress1 = g_form.getValue('u_address_1');
+	var hcity = g_form.getValue('u_city');
+	var hstate = g_form.getValue('u_state');
+	var hzip = g_form.getValue('u_zip_code');
+	var hcountry = g_form.getValue('u_country');
+	var gr = g_form.getValue('u_yes');
+	if (gr == 'false'){
+		g_form.setValue('u_paddress_1', haddress1);
+		g_form.setValue('u_pcity', hcity);
+		g_form.setValue('u_pstate', hstate);
+		g_form.setValue('u_pcountry', hcountry);
+		g_form.setValue('u_pzip_code', hzip);
+	}
+
+   //Type appropriate comment here, and begin script below
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-06-23 08:58:40&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d781e9c62fad10106a2711c82799b68a&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set Postal Address - Staff Inactive&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Smart School Record" source="x_77597_smart_scho"&gt;8392fa442f6510106a2711c82799b66b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Smart School Record"&gt;8392fa442f6510106a2711c82799b66b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_d781e9c62fad10106a2711c82799b68a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-06-23 12:49:11&lt;/sys_updated_on&gt;&lt;table&gt;x_77597_smart_scho_teacher_and_staff_table&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>656791327</payload_hash>
+        <record_name>Set Postal Address - Staff Inactive</record_name>
+        <reverted_from/>
+        <source>8792fa442f6510106a2711c82799b66d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-23 12:49:11</sys_created_on>
+        <sys_id>008652ca2f2150106a2711c82799b628</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172e139a7600000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-23 12:49:11</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>c8865e4aa72150100d9e2972fe67ca9f</update_guid>
+        <update_guid_history>c8865e4aa72150100d9e2972fe67ca9f:656791327,1476528abe215010e9ee2cd3de62d358:-1684398373,d7b165c63bad101028e79f06f7d020c6:-2107518322</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 11:32:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>23c068ff4aa14fe08743149378b42724</sys_id>
+        <sys_metadata>d781e9c62fad10106a2711c82799b68a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Postal Address - Staff Inactive</sys_name>
+        <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+        <sys_parent display_value="Teacher and Staff Table">455aa0392f6110106a2711c82799b6fb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+        <sys_scope_delete display_value="">9e9ceb8bf7b2405baf403ca063079259</sys_scope_delete>
+        <sys_update_name>sys_script_client_d781e9c62fad10106a2711c82799b68a</sys_update_name>
+        <sys_update_version display_value="sys_script_client_d781e9c62fad10106a2711c82799b68a">008652ca2f2150106a2711c82799b628</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 11:32:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

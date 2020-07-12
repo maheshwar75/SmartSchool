@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>approval_column</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>New User Approval</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+
+	var areYouSure;
+	//Get the sysparm_input value, save it to var appInput
+	//    var appInput = getParmVal('sysparm_input');
+	var appInput = getParValues();
+	//If the variable has a value (if the URL contains the correct sysparm)
+	if(appInput){
+		//Check if the parameter input is "approved".
+		if (appInput.toUpperCase() == 'APPROVED') {
+			//Check if the user is the approver. 
+			if (checkApprover()) {
+				//Check if the record is already approved. 
+				//If so, alert the user and return and stop execution.
+				if (g_form.getValue('status') == 'approved') {
+					alert(g_form.getDisplayValue('sysapproval') + ' has already been approved.');
+					return;
+				}
+				areYouSure = confirm('Are you sure you want to APPROVE ' + g_form.getDisplayValue('sysapproval') + '?\nClick OK to approve, or cancel to go back.');
+				//If the user confirms that they want to approve, set the value and save the record.
+				if (areYouSure) {
+					g_form.setValue('comments', 'Updated by clicking \'Approve\' link in approval email.');
+					g_form.setValue('status', 'approved');
+					g_form.save();
+				}
+			}
+		} 
+		//If the parameter is rejected, set state to rejected. 
+		else if (appInput.toUpperCase() == 'REJECTED') {
+			if (checkApprover()) {
+				if (g_form.getValue('status') == 'rejected') {
+					alert(g_form.getDisplayValue('sysapproval') + ' has already been rejected.');
+					return;
+				}
+				areYouSure = confirm('Are you sure you want to REJECT ' + g_form.getDisplayValue('sysapproval') + '?\nClick OK to reject, or cancel to go back.');
+				if (areYouSure) {
+					g_form.setValue('comments', 'Updated by clicking \'Reject\' link in approval email.');
+					g_form.setValue('state', 'rejected');
+					g_form.save();
+				}
+			}
+			else {
+				return;
+			}
+		} 
+		else {
+			//return, stopping execution if the value isn't correct. 
+			return;
+		}
+	}
+	else {
+		//return, stopping execution if the value isn't set.
+		return;
+	}
+}
+
+function getParValues(){
+	var gUrl = new GlideURL();
+	gUrl.setFromCurrent();   
+	var view = gUrl.getParam("sysparm_input"); 
+	return view;
+}
+//get and return the specified URL parameter. If non-existant, return false. 
+function getParmVal(parm){
+	var entireUrl = document.URL.parseQuery();
+	alert(entireUrl);
+	if(entireUrl[parm]){
+		var parameter = decodeURI(entireUrl[parm]);
+		return parameter;
+	}
+	else{
+		return false;
+	}
+}
+//Check if the current user is the approver for this record. If not, alert and return false. 
+function checkApprover() {
+	var currentUserID = g_user.userID;
+	var approver = g_form.getValue('approver');
+	if (currentUserID == approver) {
+		return true;
+	} 
+	else {
+		alert('It looks like you aren\'t the approver for this record. \nIf you have the necessary permissions, you can approve the record manually below.');
+		return false;
+	}
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-07 05:43:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>66fab46a2fb550106a2711c82799b6be</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>New User Approval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Smart School Record" source="x_77597_smart_scho">8392fa442f6510106a2711c82799b66b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart School Record">8392fa442f6510106a2711c82799b66b</sys_scope>
+        <sys_update_name>sys_script_client_66fab46a2fb550106a2711c82799b6be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-07 05:56:58</sys_updated_on>
+        <table>sysapproval_approver</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
